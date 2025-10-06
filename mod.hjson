@@ -1,23 +1,12 @@
-#the mod name as displayed in-game
 displayName: "Naytroz Mod"
-
-#the internal name of your mod
 name: "naytroz-java-mod"
 
-#your name
 author: "LunoKuni"
 
-#the fully qualified main class of the mod
-main: "naytroz.Naytroz"
+main: "nayt.Naytroz"
 
-#the mod description as seen in the mod dialog
-description: "A Mindustry Java mod by LunoKuni with his world story."
+description: "A Mindustry Java mod by LunoKuni with my world story."
 
-#the mod version
 version: 1.0
-
-#the minimum game build required to run this mod
 minGameVersion: 150
-
-#this is a java mod
 java: true
