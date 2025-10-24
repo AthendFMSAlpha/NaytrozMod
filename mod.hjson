@@ -1,11 +1,11 @@
-displayName: "Naytroz Mod"
-name: "naytroz-java-mod"
+displayName: "Naytrozation Mod"
+name: "nayt_mod"
 
 author: "LunoKuni"
 
-main: "nayt.Naytroz"
+main: "Naytrozation.Naytrozation"
 
-description: "A Mindustry Java mod by LunoKuni with my world story."
+description: "A Mindustry Java mod by NaytrozStudio with our world story."
 
 version: 1.0
 minGameVersion: 150
