@@ -27,7 +27,6 @@ public class NaytOreBlocks {
             oreDefault = true; // 是可钻探矿物？
             oreThreshold = 0.828f; // 矿脉比例
             oreScale = 23.952381f; // 矿脉缩放（不确定）
-
         }};
 //---------- 墙矿石 ----------//
     }
