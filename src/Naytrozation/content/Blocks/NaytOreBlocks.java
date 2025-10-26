@@ -4,12 +4,14 @@ package Naytrozation.content.Blocks;
 import Naytrozation.content.NaytItems;
 import mindustry.world.Block;
 import mindustry.world.blocks.environment.OreBlock;
+import mindustry.world.blocks.environment.StaticWall;
 
 public class NaytOreBlocks {
     public static Block
         // 矿石
-        oreCrysnow, oreCobalt
+        oreCrysnow, oreCobalt,
         // 墙矿石
+        quartizLayerWall
         ;
     public static void load() {
 //---------- 矿石 ----------//
@@ -29,5 +31,10 @@ public class NaytOreBlocks {
             oreScale = 23.952381f; // 矿脉缩放（不确定）
         }};
 //---------- 墙矿石 ----------//
+        // 石英质层墙
+        quartizLayerWall = new StaticWall("quartiz-layer-wall"){{
+            itemDrop = NaytItems.quartiz;
+            variants = 3;
+        }};
     }
 }

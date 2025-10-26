@@ -49,7 +49,8 @@ public class NaytTurretBlocks {
                 }}
             );
             // 外观
-            drawer = new DrawTurret(){{
+            squareSprite = false; // 完整材质？
+            drawer = new DrawTurret("coated-"){{
                 parts.add(new RegionPart("-mid"){{
                     progress = PartProgress.recoil;
                     under = false;

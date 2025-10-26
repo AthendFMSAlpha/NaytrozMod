@@ -29,7 +29,6 @@ public class NaytPowerBlocks {
             fogRadius = 1; // 战争迷雾视野
             // 外观
             squareSprite = false; // 完整材质？
-
             // 测试
             alwaysUnlocked = true; // 总是解锁？
         }};

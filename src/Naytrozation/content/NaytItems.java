@@ -124,7 +124,7 @@ public class NaytItems {
             charge = 0.1f; // 放电性（如巨浪合金 = 0.75f）
             crystallinity = 0.8f; // 结晶性
             naytrozity = 0.2f; // 纳英性
-            hardness = 3; // 挖掘硬度（0废/1铜/2煤/3钛/4钍/5钨）
+            hardness = 5; // 挖掘硬度（0废/1铜/2煤/3钛/4钍/5钨）
             cost = 0.8f; // 延长建造
             healthScaling = 0.25f; // 增加血量
             // 测试
